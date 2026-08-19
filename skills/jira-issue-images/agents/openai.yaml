@@ -1,0 +1,9 @@
+interface:
+  display_name: "Jira Issue Images"
+  short_description: "Fetch Jira issue images through session cookies"
+  default_prompt: "Use $jira-issue-images to read a Jira issue and retrieve its image attachments."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "jira"
+      description: "Jira MCP server for issue and attachment metadata"

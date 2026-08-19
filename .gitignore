@@ -1,0 +1,6 @@
+.DS_Store
+.env
+**/.jira_pat
+**/.jira_credentials
+**/credentials.json
+**/cookies.txt
